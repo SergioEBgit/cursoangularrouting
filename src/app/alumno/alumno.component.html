@@ -1,0 +1,5 @@
+<div *ngIf="this.matriculado">
+<span>{{ this.nombre }} - {{ this.edad }} - {{ this.notasParcial }}</span>
+</div>
+<button (click)="this.cambiarMatricula(!this.matriculado)">Cambiar matriculado</button>
+<button (dblclick)="this.cambiarMatricula(!this.matriculado)">Cambiar matriculado(doble click)</button>
